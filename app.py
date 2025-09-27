@@ -501,6 +501,5 @@ if st.button("Start New Audit Cycle"):
 
     st.dataframe(st.session_state.audit_log, use_container_width=True)
 
-CMD ["streamlit", "run", "laam_simulator.py", "--server.port", "7860", "--server.address", "0.0.0.0"]
 
     
