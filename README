@@ -1,0 +1,39 @@
+# LAAM Audit Simulator
+
+The LAAM Audit Simulator is a fairness-aware, emotionally legible tool for exploring how audit decisions evolve over time. Built on the **LTAE** and **LAAM** frameworks, this interactive app models trust, erosion, and redemption across jurisdictions.
+
+## 🔍 What It Does
+
+- Assign signals like `missing_doc`, `clean`, or `legacy_flag`
+- Watch belief drift and anchor burden evolve in real time
+- Explore override logic and jurisdictional nuance
+- Reflect on systemic memory and fairness in enforcement
+
+## 🧭 Jurisdictional Scenarios
+
+Each region interprets signals differently:
+- **Florida**: Forgives quickly after resolved errors
+- **Chicago**: Remembers legacy flags and escalates
+- **Nevada**: Reacts strongly to environmental triggers
+- **IRS (default)**: Applies standard audit logic with override thresholds
+
+## 🚀 Try It Now
+
+👉 [Launch the app](https://huggingface.co/spaces/your-username/laam-audit-simulator)
+
+## 🛠️ Built With
+
+- Streamlit
+- Python
+- Pandas, NumPy, Matplotlib
+- Docker (for Hugging Face deployment)
+
+## ✍️ Author
+
+Built by **Ruben Lopez** using the **LTAE** and **LAAM** frameworks.  
+Designed to provoke thought, teach fairness, and model systemic memory.
+
+## 📣 Share Your Audit Story
+
+Have insights, feedback, or reflections?  
+Use the hashtag `#LAAMaudit` or open an issue in this repo.
